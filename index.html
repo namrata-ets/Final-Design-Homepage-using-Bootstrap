@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pageantry</title>
+    <script src="https://kit.fontawesome.com/1d78ac0dfc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-color: #084e72";>
+            <div class="col-lg-3 header">
+                <img src="./assets/logo1.png" width="80" height="80">
+                <h3>My Pageantry</h3> 
+            </div>
+            <div class="col-lg-4">
+                <input type="search" class="searchbar" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            </div>
+            <div class="col-lg-5 profileoptions">
+                <img src=".\assets\owl2.png" width="60" height="60"> </img>
+                <select>
+                    <option value="dishant" selected>Dishant</option>
+                    <option value="profile">Profile</option>
+                    <option value="log out">Log Out</option>
+                </select> 
+                <a href="#">
+                    <i class="fa-solid fa-house-chimney" style="font-size:23px;color:#FFFFFF"></i>      
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-envelope" style="font-size:23px;color:#FFFFFF"></i>
+                    <span class="badge">2</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-bell" style="font-size:23px;color:#FFFFFF"></i>
+                    <span class="badge">4</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 griditemleft">
+                <div class="profilecard">
+                    <img src="./assets/owl2.png" class="card-img-top" alt="Loading..">
+                    <div class="card-body">
+                      <h5 class="card-title">Dishant Mehta</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 crowncard">
+                    <img src="./assets/crownimg.png" width="180" height="140" alt="Loading..">
+                </div>
+                <div class="col-lg-2 leftpanel">
+                    <div class="leftpanelitem">
+                        <img src="./assets/profileicon.png" width="40" height="40">
+                        <span>Profile</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/sunglasses.png" width="30" height="30">
+                        <span>Pageantry</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/crown.png" width="30" height="30">
+                        <span>Crowns</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/star.png" width="40" height="40">
+                        <span> Wishlist</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/family-tree.png" width="30" height="40">
+                        <span> Family Tree</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/contacts.png" width="40" height="40">
+                        <span>Contacts</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/group.png" width="40" height="40">
+                        <span>Groups</span>
+                    </div>
+                    <div class="leftpanelitem">
+                        <img src="./assets/events.png" width="40" height="40">
+                        <span>Events</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 topmenu">
+                    <div class="row pageantry">
+                        <p>Today's Pageantry !</p>  
+                    </div>
+                    <div class="row options">
+                            <div class="optionitem">
+                                <i class="fa-regular fa-image" style="font-size:28px;color:#ee3737"></i>
+                                <span>Image</span>
+                             </div>
+                             <div class="optionitem">
+                                <i class="fa-solid fa-circle-play" style="font-size:28px;color:#810707"></i> 
+                                <span>Video</span>
+                             </div>
+                             <div class="optionitem">
+                                <i class="fa-solid fa-music" style="font-size:28px;color:#09186c"></i></i>
+                                <span>Audio</span>
+                            </div>
+                            <div class="optionitem"> 
+                                <i class="fa-solid fa-location-dot" style="font-size:28px;color:#0a8656"></i>
+                                <span>Location</span>
+                            </div>
+                            <div class="optionitem">
+                                <i class="fa-regular fa-face-smile" style="font-size:28px;color:#f9c435"></i>
+                                <span>Confused?</span>
+                            </div>
+                           <div class="optionitem">
+                            <i class="fa-solid fa-tag" style="font-size:28px;color:#1d6de5"></i>
+                                 <span>Tag Friends</span> 
+                            </div> 
+                            <div class="optionitem">
+                                <select>
+                                    <option value="friends">Friends</option>
+                                </select> 
+                            </div>
+                            <div class="optionitem">
+                                <button type="button" class="btn">Post</button>
+                            </div>
+                    </div>
+            </div>
+            
+    
+            <div class="col-lg-8 pageoptions">
+                <button type="button" class="postoptionbtn">
+                    <img src="./assets/sunglasses.png" width="40" height="40">
+                    <span>Pageantry</span>
+                </button>
+                <button type="button" class="postoptionbtn">
+                        <img src="./assets/star.png" width="40" height="40">
+                        <span> Wishlist</span>
+                </button>
+                <button type="button" class="postoptionbtn">
+                        <img src="./assets/family-tree.png" width="40" height="40">
+                        <span>Family Tree</span>
+                </button>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="row postdesc1">
+                    <div class="postheading">
+                        <div class="postheadingimg">
+                            <img src="./assets/profileicon.png" width="60" height="60" class="profilepic"> 
+                        </div>
+                        <div class="nameheader">
+                            <div class="name">
+                                <span>Keyur Mehta</span>
+                            </div>
+                            <div class="posttime">
+                                <span>20 mins ago </span>
+                                <i class="fa-solid fa-clock" style="font-size:14px;color:rgb(73, 73, 73)"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postcontent">
+                        <div class="postcontentimg">
+                            <img src="./assets/crown.png" width="130" height="80">
+                        </div>
+                        <div class="postcontentTitle">
+                            <span>
+                                Got <strong style="color:#084e72">Pageantry of the week</strong> in <strong style="color:#084e72">Business</strong>
+                            </span> 
+                        </div>
+                    </div>
+                    <div class="postoptions">
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-heart" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Like</span>
+                        </div> 
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-comment" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Comment</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-solid fa-share-nodes" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Share</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-plus"  style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Add To Pageantry</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-plus"  style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Add to Wishlist</span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row postdesc1">
+                    <div class="postheading">
+                        <div class="postheadingimg">
+                            <img src="./assets/profileicon.png" width="60" height="60" class="profilepic"> 
+                        </div>
+                        <div class="nameheader">
+                            <div class="name">
+                                <span>Keyur Mehta</span>
+                            </div>
+                            <div class="posttime">
+                                <span>20 mins ago </span>
+                                <i class="fa-solid fa-clock" style="font-size:14px;color:rgb(73, 73, 73)"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postcontent">
+                        <div class="postcontentimg">
+                            <img src="./assets/family-tree.png" width="110" height="60">
+                        </div>
+                        <div class="postcontentTitle">
+                            <span>
+                                Added <strong style="color:#084e72">Dishant Mehta</strong> to Family
+                            </span> 
+                        </div>
+                    </div>
+                    <div class="postoptions">
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-heart" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Like</span>
+                        </div> 
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-comment" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Comment</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-solid fa-share-nodes" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Share</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-plus"  style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Add To Pageantry</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-plus"  style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Add to Wishlist</span>
+                        </div>
+                    </div>  
+                </div>
+            </div>  
+            <div class="col-lg-4">
+                <div class="row post3heading">
+                    <div class="postheadingimg">
+                        <img src="./assets/profileicon.png" width="60" height="60" class="profilepic"> 
+                    </div>
+                    <div class="nameheader">
+                        <div class="name">
+                            <span><strong style="color:#084e72">Keyur Mehta</strong> Shared <strong style="color:#084e72">Dishant Mehta's Event</strong>
+                            </span>   
+                        </div>
+                        <div class="post3time">
+                            <span>20 mins ago </span>
+                            <i class="fa-solid fa-clock" style="font-size:14px;color:rgb(73, 73, 73)"></i>
+                        </div>
+                    </div>
+                </div>     
+
+                <div class="row postdesc3">
+                    <div class="postheading">
+                        <div class="postheadingimg">
+                            <img src="./assets/profileicon.png" width="60" height="60" class="profilepic"> 
+                        </div>
+                        <div class="nameheader">
+                            <div class="name">
+                                <span><strong style="color:#084e72">Dishant Mehta</strong> Created a <strong style="color:#084e72">Group</strong> </span>
+                            </div>
+                            <div class="post3time">
+                                <span>20 mins ago </span>
+                                <i class="fa-solid fa-clock" style="font-size:14px;color:rgb(73, 73, 73)"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post3innerdiv">
+                        <img src="./assets/birthday.jpg" class="card-img-top" alt="You are invited to attend the birthday Party.." width="400px"><br>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Birthday Celebrations</b><br>
+                                Hello we are going to arrange a surprise birthday party.<br>
+                                24/02/2017 4 pm onwards <br>
+                                <b>Venue:</b><address>4th Floor Lobby, Hotel Wing,TGB, Magdalla Circle,<br>Dumas Road, Surat, Gujarat-395007</address>
+                            </p>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-success">Yes</button>
+                            <button type="button" class="btn btn-outline-primary">No</button>
+                            <button type="button" class="btn btn-outline-primary">Maybe</button>
+                        </div>
+                    </div>
+                    <div class="postoptions">
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-heart" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span> Like </span>
+                        </div> 
+                        <div class="postoptionitem">
+                            <i class="fa-regular fa-comment" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Comment</span>
+                        </div>
+                        <div class="postoptionitem">
+                            <i class="fa-solid fa-share-nodes" style="font-size:18px;color:rgb(73, 73, 73)"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col rightmenu">
+                <div class="row piechartheader">
+                    <img src="./assets/piechart.png">
+                    <span>25% Profile Details pending</span>
+                </div>
+                <div class="row rightsidebadges">
+                    <button type="button">
+                        <img src="./assets/crown.png" width="40" height="40">
+                        <span>Pageantry Awards</span>
+                    </button>
+                    <button type="button">
+                            <img src="./assets/sunglasses.png" width="40" height="40">
+                            <span>Add Pageantry</span>
+                    </button>
+                    <button type="button">
+                            <img src="./assets/star.png" width="40" height="40">
+                            <span>Add Wishlist</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col chatbox">
+                <div class="chatheader">
+                    <i class="fa-light fa-messages" style="font-size:28px;color:#f9c435"></i>
+                    <span>Chat</span>
+                </div>
+                <div class="chatitem">
+                    <i class="fa-solid fa-user-group" style="font-size:28px;color:#111010"></i>
+                    <span>College Group</span>
+                </div>
+                <div class="chatitem">
+                    <i class="fa-solid fa-palette" style="font-size:28px;color:#111010"></i>
+                    <span>Art Group</span>
+                </div>
+                <div class="chatitem">
+                    <i class="fa-sharp fa-solid fa-spray-can" style="font-size:28px;color:#111010"></i>
+                    <span>Material Design</span>
+                </div>
+                <span>See More</span>
+                <hr width="80%" style="color:#111010">
+            </div>
+            <div class="col people-list" id="people-list">
+                
+                    <div class="about">
+                           <img src="./assets/profileicon.png" width="30" height="30" alt="Loading Zil's Profile">
+                           <div class="name">
+                            Dishant Mehta
+                            </div>
+                            <div class="chatduration">
+                                <span>2hr</span>
+                                <i class="fa fa-circle online" style="font-size:15px;color:#0a8656"></i>
+                            </div>
+                    </div>
+                    
+                    <div class="about">
+                        <img src="./assets/profileicon.png" width="30" height="30" alt="Loading Zil's Profile">
+                        <div class="name">
+                         Keyur Mehta
+                         </div>
+                         <div class="chatduration">
+                             <span>2hr</span>
+                             <i class="fa fa-circle online"></i>
+                         </div>
+                    </div>
+
+                    
+                    <div class="about">
+                        <img src="./assets/profileicon.png" width="30" height="30" alt="Loading Zil's Profile">
+                        <div class="name">
+                         Ayushi Shah
+                         </div>
+                         <div class="chatduration">
+                             <span>2hr</span>
+                             <i class="fa fa-circle online"></i>
+                         </div>
+                 </div>
+                 
+                 <div class="about">
+                    <img src="./assets/profileicon.png" width="30" height="30" alt="Loading Zil's Profile">
+                    <div class="name">
+                     Zil Mehta
+                     </div>
+                     <div class="chatduration">
+                         <span>2hr</span>
+                         <i class="fa fa-circle online"></i>
+                     </div>
+             </div>
+             
+             <div class="about">
+                <img src="./assets/profileicon.png" width="30" height="30" alt="Loading Zil's Profile">
+                <div class="name">
+                 Shashi Gupta
+                 </div>
+                 <div class="chatduration">
+                     <span>2hr</span>
+                     <i class="fa fa-circle online"></i>
+                 </div>
+         </div>
+              
+        </div>
+    </div>
+</body>
+</html>
